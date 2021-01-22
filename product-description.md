@@ -8,7 +8,13 @@ The dataset file included with this product is provided in CSV format. README fi
 This dataset contains a historical time-series data of National Association of Realtors, Existing Home Sales [EXHOSLUSM495S] starting from `2019-11-01`. The data represents the Number of Units, Seasonally Adjusted Annual Rates. Existing-home sales are based on closing transactions of single-family, townhomes, condominiums and cooperative homes.
 
 ### Data Source
-This dataset is provided by the [Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/) Economic Data (FRED). 
+This dataset is provided by the [Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/) Economic Data (FRED).
+
+The included dataset contains the following columns:
+
+`date, EXHOSLUSM495S`
+
+The `EXHOSLUSM495S` column represents the number of units(houses) sold at the time of the corresponding `date`.  
 
 ### More Information
 - Source: 
